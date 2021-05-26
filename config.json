@@ -1,0 +1,15 @@
+{
+  "development": {
+      "config_id": "development",
+      "app_name": "my app",
+      "app_desc": "my app desc",
+      "node_port": 3000,
+      "json_indentation": 4,
+      "database": "app.db"
+  },
+  "production": {
+      "config_id": "production",
+      "node_port": 8080,
+      "database": "app.db"
+  }
+}
