@@ -3,7 +3,7 @@ FROM node:15
 RUN apt-get update -y \
     && apt-get -y install curl python build-essential git apt-transport-https ca-certificates sqlite3
 
-WORKDIR /usr
+WORKDIR /api
 COPY package.json ./
 COPY tsconfig.json ./
 
